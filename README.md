@@ -1,4 +1,4 @@
-# redux-smooth-storage
+# smooth-react-class-bind
 
 ## Synopsis
 
