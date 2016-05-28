@@ -57,7 +57,7 @@ module.exports =
 								return !Array.of( ...EXCLUDE_METHODS, ...exclude ).includes(f)
 							})
 
-		})()
+			})()
 
 			bindMethods.call(context, methodsToBind)
 		}
