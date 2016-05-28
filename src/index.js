@@ -7,10 +7,10 @@ module.exports =
 	) =>
 {
 
-		let methodsToBind = ( _ = > {
+		let methodsToBind = ( _ => {
 			return !Object.is.apply([], include)
 				? include
-				: Array.of( ...Reflect.ownKeys(context.constructor.prototype,...append) )
+				: Array.of( ...Reflect.ownKeys(context.constructor.prototype, ...append) )
 					.filter(f => {
 						return !Array.of( ...EXCLUDE_METHODS,...exclude ).includes(f)
 					})
@@ -21,8 +21,8 @@ module.exports =
 	}
 
 	function bindMethods(methods) {
-		methods.filter(prop = > typeof this[prop] === 'function')
-			.forEach(m = > {
+		methods.filter(prop => typeof this[prop] === 'function')
+			.forEach(m => {
 				this[m] = this[m].bind(this)
 			}
 	)
