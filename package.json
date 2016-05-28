@@ -1,0 +1,30 @@
+{
+  "name": "redux-smooth-storage",
+  "version": "0.1.0",
+  "description": "Quick work to allow for all methods in a React es6 class to have its methods bound to this context",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsacramone/smooth-react-class-bind.git"
+  },
+  "keywords": [
+    "bind",
+    "es6-bind",
+    "autobind",
+    "auto bind",
+    "bind React methods",
+    "React autobind",
+    "React Bind",
+    "React ES6 Bind",
+    "autobind class"
+  ],
+  "author": "Dean Sacramone <deansacramone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsacramone/smooth-react-class-bind/issues"
+  },
+  "homepage": "https://github.com/dsacramone/smooth-react-class-bind#readme"
+}
